@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main {
+  max-width: 50%;
+  margin-top: 100px;
+  padding: 20px;
+  gap: 3px;
+}
+.active {
+  height: 5px;
+  width: 5px;
+  gap: 10px;
+  background-color: rgb(67, 63, 63);
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+}
